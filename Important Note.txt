@@ -1,0 +1,43 @@
+
+I am Sachin Solapure i have completed this task for Elansol technologies. 
+contact solapuresachin1711@gmail.com
+
+## Description
+
+This project implements a user registration and login system using React.js for the frontend and Node.js with Express.js and MongoDB for the backend. It includes JWT authentication for secure user access.
+
+## Setup Instructions
+
+### Backend (Node.js with Express)
+
+1. **Install Dependencies**:
+   ```bash
+   cd Assignment Backend
+   npm install
+   ```
+
+2. **Start Backend Server**:
+   ```bash
+   npm start or node index.js
+   ```
+   - The server will start at `http://localhost:5000`.
+
+### Frontend (React.js)
+
+1. **Install Dependencies**:
+   ```bash
+   cd Assignment Frontend
+   npm install
+   ```
+
+2. **Start Frontend Development Server**:
+   ```bash
+   npm start
+   ```
+   - Open your browser and go to `http://localhost:3000` to view the application.
+
+### Usage
+
+- Use the frontend UI (`http://localhost:3000`) to register and login users.
+- Backend APIs (`http://localhost:5000/api/auth`) handle registration and login logic, using MongoDB for data storage.
+
