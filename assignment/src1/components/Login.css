@@ -1,0 +1,16 @@
+
+
+
+.ram{
+    width: 40%;
+    height: 60%;
+    background-color:rgb(39, 53, 143);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(25, 1, 46, 0.1);
+    border: 2px solid black;
+    margin-bottom: 5%;
+    margin-left: 27%;
+    margin-top: 2%;
+    
+}

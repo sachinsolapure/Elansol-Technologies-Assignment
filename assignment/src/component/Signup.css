@@ -1,0 +1,10 @@
+.shyam{
+    width: 40%;
+    height: 60%;
+    background-color:rgb(39, 53, 143);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 28%;
+    margin-top: 5%;
+}
