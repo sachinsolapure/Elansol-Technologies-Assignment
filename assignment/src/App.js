@@ -18,8 +18,8 @@ function App() {
     <div>
       <Routes>
         <Route exact path="/" element={<Login/>}/>
-        <Route exact path="/createuser" element={<Signup/>}/>
-        <Route path='/displayUsers' element={<DisplayUsers/>}/>
+        <Route exact path="/register" element={<Signup/>}/>
+        <Route path='/users' element={<DisplayUsers/>}/>
       </Routes>
     </div>
   </Router>

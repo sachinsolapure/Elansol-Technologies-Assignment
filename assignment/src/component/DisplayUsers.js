@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import './Users.css';
 function DisplayUsers() {
   const [users, setUsers] = useState([]);
 
@@ -33,12 +33,12 @@ function DisplayUsers() {
   return (
     <>
       <div>
-        <h1 style={{textAlign: "center" }}>User List</h1><br />
+        <h1 className="head_user">User List</h1><br />
         <table style={{ width: "80%", border: "1px solid #000", borderCollapse: "collapse" ,backgroundColor:"white",color:"black",marginLeft:"10%" }}>
         <thead>
           <tr>
             <th style={{ border: "1px solid #000", padding: "8px", textAlign: "center" }}>Name</th>
-            <th style={{ border: "1px solid #000", padding: "8px", textAlign: "center" }}>Date of Birth</th>
+            <th style={{ border: "1px solid #000", padding: "8px", textAlign: "center" }}>Birth Date</th>
             <th style={{ border: "1px solid #000", padding: "8px", textAlign: "center" }}>Email</th>
             <th style={{ border: "1px solid #000", padding: "8px", textAlign: "center" }}>Password</th>
           </tr>
